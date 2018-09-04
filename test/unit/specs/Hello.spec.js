@@ -3,7 +3,7 @@
 import Vue from 'vue';
 import Hello from '@/page/Hello';
 
-describe('Hello.vue', () => {
+describe('Hello.vue', () => { //Hello.vue 를 실행하면,
   it('should render correct contents', () => {
     const Constructor = Vue.extend(Hello);
     const vm = new Constructor().$mount();
