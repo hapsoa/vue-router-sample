@@ -1,6 +1,6 @@
 <template lang="pug">
   <div class="hello">
-    <h1>Welcome to Jaejong Vue Template</h1>
+    <h1>Welcome to Hanu Vue Template</h1>
     <h4>vuex store</h4>
     <h3 v-html="$store.getters.getCount"></h3>
     <div>
@@ -11,28 +11,28 @@
     <ul>
       <li>
         <a href="https://vuejs.org" target="_blank">
-          Core Docs
+          | Core Docs
         </a>
       </li>
       <li>
         <a href="https://forum.vuejs.org" target="_blank">
-          Forum
+          | Forum
         </a>
       </li>
       <li>
         <a href="https://chat.vuejs.org" target="_blank">
-          Community Chat
+          | Community Chat
         </a>
       </li>
       <li>
         <a href="https://twitter.com/vuejs" target="_blank">
-          Twitter
+          | Twitter
         </a>
       </li>
       <br>
       <li>
         <a href="https://github.com/hyunwoo/vue-template" target="_blank">
-          Github for This Template
+          | Github for This Template
         </a>
       </li>
     </ul>
@@ -40,22 +40,22 @@
     <ul>
       <li>
         <a href="http://router.vuejs.org/" target="_blank">
-          vue-router
+          | vue-router
         </a>
       </li>
       <li>
         <a href="http://vuex.vuejs.org/" target="_blank">
-          vuex
+          | vuex
         </a>
       </li>
       <li>
         <a href="http://vue-loader.vuejs.org/" target="_blank">
-          vue-loader
+          | vue-loader
         </a>
       </li>
       <li>
         <a href="https://github.com/vuejs/awesome-vue" target="_blank">
-          awesome-vue
+          | awesome-vue
         </a>
       </li>
     </ul>
@@ -95,7 +95,7 @@ export default {
       this.$store.commit('increment', { inc: -1 });
     },
     async mousemoved() {
-      console.log(this);
+      // console.log(this);
     }
   }
 };
